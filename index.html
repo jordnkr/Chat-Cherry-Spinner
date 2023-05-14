@@ -7,9 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="spinner-container">
-        <canvas id="spinnerCanvas" width="300" height="300"></canvas>
-        <button id="spinBtn" class="spin-btn">Spin</button>
+    <div class="content">
+        <div class="spinner-container">
+            <canvas id="spinnerCanvas" width="300" height="300"></canvas>
+            <button id="spinBtn" class="spin-btn">Spin</button>
+        </div>
+        <div class="rules-container">
+            <h2>Hi-Ho Cherry-O Rules</h2>
+            <ol>
+                <li>Each player chooses a tree and fills it with 10 cherries.</li>
+                <li>Players take turns spinning the spinner and following the instructions based on the spinner result.</li>
+                <li>If the spinner lands on a number, the player removes that many cherries from their tree and puts them in the bucket.</li>
+                <li>If the spinner lands on the bird or dog, the player returns 2 cherries from their bucket to their tree.</li>
+                <li>If the spinner lands on the spilled bucket, the player returns all cherries from their bucket to their tree.</li>
+                <li>The first player to move all 10 cherries from their tree to their bucket wins the game.</li>
+            </ol>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
