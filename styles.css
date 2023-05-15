@@ -24,6 +24,7 @@ body {
 canvas {
     border: 3px solid #000;
     border-radius: 50%;
+    padding: 10px;
 }
 
 .spin-btn {
