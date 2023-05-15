@@ -48,3 +48,14 @@ canvas {
 h2 {
     margin-bottom: 10px;
 }
+
+/* ...existing CSS above... */
+
+.result-container {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ...existing CSS below... */
+
